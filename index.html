@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #FFF8F0; font-family:Poppins, sans-serif; color:#4B2E28; margin:20px;">
+
+<!-- 🎉 Confetti Animation -->
+<script>
+    // Simple confetti burst using canvas-confetti CDN
+    // Load the library
+    var script = document.createElement('script');
+    script.src = "https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js";
+    document.head.appendChild(script);
+
+    // Wait for it to load, then fire confetti
+    script.onload = function() {
+        confetti({
+            particleCount: 200,
+            spread: 120,
+            origin: { y: 0.6 },
+            colors: ['#E75480', '#FFB6C1', '#FBE9D0', '#A3D2CA', '#F6BD60']
+        });
+    };
+</script>
+
+
+
+<header>
+    <h1> Welcome to Divya's Icecream Parlour</h1>
+<p> Your sweetest destination for happiness.</p>
+</header>
+
+<hr>
+
+<! --About Section -->
+
+<h2> About us </h2>
+<p> Welcome to <strong> Divya's Icecream Parlour </strong> , your local destination for handcrafted scoops, creamy sundaes, and frozen happiness. 
+ We blend <em> fresh ingredients </em>, <em> bold flavours </em>, and <em> lots of love </em> in every cup! </p>
+
+ <br>
+
+ <!--Fun Message-->
+ <p>Try our new <u>Mango Madness</u> and <u> Choco Galaxy </u> specials this summer! </p>
+
+<!--Icecream Menu Section-->
+
+<hr>
+<h2>Our Flavours</h2>
+
+<div>
+    <h3> Classic Collections </h3>
+    <ul>
+        <li>Vanilla Dream</li>
+        <li>Chocolate Heaven</li>
+        <li>Strawberry Bliss</li>   
+        <li> Minty Fresh </li>
+        <li> Cookies and Cream </li>
+        <li> Butterscotch Delight </li>
+    </ul>
+</div>
+    
+<div>
+    <h3> Premium Specials</h3>
+    <ol>
+        <li> Salted Caramel Swirl </li>
+        <li> Pistachio Paradise </li>
+        <li> Mango Tango </li>
+        <li> Coffee Craze </li>
+        <li> Rocky Road Adventure </li>
+        <li> Matcha Magic </li>
+        <li> Minty Magic</li>
+        <li>Berry Burst</li>
+        <li>Coconut Chill </li>
+        <li> Choco Galaxy </li>
+        <li> Mango Madness </li>
+        <li> Caramel Crunch </li>
+    </ol>
+</div>
+
+<div>
+    <h3> Seasonal Favourites </h3>
+    <ul>
+        <li> Coconut Cream </li>
+        <li> Almond Joy </li>
+        <li> Berry Sorbet </li>
+        <li> Mango Sorbet </li>
+        <li> Chocolate Avocado </li>
+    </ul>
+</div>
+
+<!--Highlighting a note using <span> -->
+
+    <p> <span style="color: hotpink;"> Tip: </span> Add toppings like nuts, syrups and choco chips to make it extra special!   </p>
+
+
+<br>
+
+<hr>
+<h2> Our Delicious Gallery </h2>
+
+<div style="text-align:center; background-color:#FFF8F0; padding:20px;">
+  <img src="Ice1.jpg" alt="Vanilla Ice Cream" width="300" height="150">
+  <img src="Ice2.jpg" alt="Chocolate Ice Cream" width="300" height="150">
+  <img src="Ice3.jpg" alt="Strawberry Ice Cream" width="300" height="150">
+  <img src="Ice4.jpg" alt="Mint Ice Cream" width="300" height="150">
+</div>
+
+
+
+<hr>
+<h2>Our Price Chart </h2>
+<table border="1" cellspacing="0" cellpadding="8">
+    <caption><strong> Icecream Menu and Prices </strong></caption>
+    <tr>    
+        <th>Flavours </th>
+        <th> Size </th>
+        <th>Price (INR) </th>
+    </tr>
+
+    <tr>
+        <td> Vanilla Dream </td>
+        <td> Small </td>
+        <td> 50 </td>
+    </tr>
+
+    <tr>
+        <td> Chocolate Heaven </td>
+        <td> Medium </td>
+        <td> 80 </td>
+
+    </tr>
+    <tr>
+        <td> Strawberry Bliss </td>
+        <td> Large </td>
+        <td> 120 </td>
+
+    </tr>
+    <tr>
+        <td> Mango Madness </td>
+        <td> Medium </td>
+        <td> 90 </td>
+    </tr>
+
+    <tr>
+        <td> Choco Galaxy </td>
+        <td> Large </td>
+        <td> 130 </td>
+    </tr>
+
+    <tr>
+        <td> Minty Fresh </td>
+        <td> Small </td>
+        <td> 60 </td>
+    </tr>
+</table>
+
+<br>
+
+<h3> Combo Menu </h3>
+<table border="1" cellspacing="0" cellpadding="8">
+    <caption><strong> Combo Deals </strong></caption>
+    <tr>
+        <th>Combo Name </th>
+        <th> Items Included </th>
+        <th> Price (INR) </th>
+    </tr>
+
+    <tr>
+        <td> Sweet Duo </td>
+        <td> 2 Small Scoops + 1 Topping </td>
+        <td> 120 </td>
+    </tr>
+
+    <tr>
+        <td> Family Feast </td>
+        <td> 4 Medium Scoops + 2 Toppings + 1 Sundae </td>
+        <td> 400 </td>
+    </tr>
+
+    <tr>
+        <td> Party Pack </td>
+        <td> 8 Large Scoops + 4 Toppings + 2 Sundaes </td>
+        <td> 800 </td>
+    </tr>
+</table>
+
+<table style="width: 70%; border-collapse: collapse; margin: 20 px auto;
+background-color:#FFF8F0; color:#4B2E28;
+border: 2px solid #FFB6C1; border-radius:10px;">
+
+<caption style="font-weight: bold; color: #E75480; font-size: 20px; margin: 10px;"> Icecream Menu </caption>
+<tr style="background-color: #FFEEb;">
+    <th>Flavours</th>
+    <th> Size </th>
+    <th> Price (INR) </th>
+</tr>
+
+<span style="color:#E75480;">Limited Edition!</span>
+
+
+<tr>
+    <td> Butterscotch Delight </td>
+    <td> Medium </td>
+    <td> 85 </td>
+
+</tr>
+
+<tr>
+    <td> Pistachio Paradise </td>
+    <td> Large </td>
+    <td> 140 </td>
+</tr>
+
+<tr>
+    <td> Rocky Road Adventure </td>
+    <td> Small </td>
+    <td> 70 </td>       
+</tr>
+
+</table>
+
+🍫 • 🍓 • 🍯 • 🍦
+<br>
+
+<hr>
+<h2>Order Now </h2>
+<p> Ready to indulge in a scoop of happiness? Visit us at Divya's Icecream Parlour or place your order online for a delightful treat delivered right to your doorstep! </p>
+
+<form style="background-color: #FFF8F0; padding: 20px; border: 2px solid #FFB6C1; width:60% ; margin:auto; border-radius:12px;">
+
+    <label for="name"> Name: </label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="flavour"> Choose your flavour: </label><br>
+    <select id="flavour" name="flavour" required>
+        <option value="vanilla"> Vanilla Dream </option>
+        <option value="chocolate"> Chocolate Heaven </option>
+        <option value="strawberry"> Strawberry Bliss </option>
+        <option value="mango"> Mango Madness </option>
+        <option value="choco_galaxy"> Choco Galaxy </option>
+    </select><br><br>
+
+    <label for="size"> Size: </label><br>
+    <input type="radio" id="small" name="size" value="small"
+    required>
+    <label for="small"> Small </label><br>
+    <input type="radio" id="medium" name="size" value="medium">
+    <label for="medium"> Medium </label><br>
+    <input type="radio" id="large" name="size" value="large">
+    <label for="large"> Large </label><br><br>
+    <label for="quantity"> Quantity: </label><br>
+    <input type="number" id="quantity" name="quantity" min="1"
+    required><br><br>
+
+    <input type="submit" value="Place Order">
+</form>
+
+<hr>
+<h2> Feedback </h2>
+<form style=""background-color: #FFE6EB; padding: 20px; border: 2px solid #E755480; width: 60%; margin: auto; border-radius:12px;">
+<label for="rating"> Rate our Parlour:</label>label><br>
+<input type="radio" id="rating1" name="rating" value="Excellent"> Excellent
+<input type="radio" id="rating2" name="rating" value="Good"> Good
+<input type="radio" id="rating3" name="rating" value="Average"> Average
+
+<label for="comments"> Your comments:</label><br>
+
+<textarea id="comments" name="comments" rows="3" cols="50" placeholder="Tell us how we did" style="border:1px solid #E75480; border-radius:5px; padding:10px;"></textarea><br><br>
+
+<button type="submit" style=""background-color:#E75480, color:white; padding:10px 20px; border:none; border-radius:5px; cursor:pointer;">Submit Feedback</button>
+ Send Feedback
+</button>
+</form>
+
+
+<p>Click below to explore more flavours! Our new brand Amul has launched more flavours. </p>
+<a href="https://www.instagram.com/p/DIG6UJRSfpz/" target="_blank"> See More Icecream </a>
+
+<hr>
+<h3>Connect with us!</h3>
+<p> Follow us on social media for the latest updates, special offers, and mouth-watering ice cream inspiration! </p>
+<p>
+    <a href="https://instagram.com" target="_blank"> Instagram </a>
+   <a href="https://facebook.com" target="_blank"> Facebook </a>
+</p>
+ 
+
+
+</body>
+</html>
+
